@@ -530,4 +530,15 @@ nav .box .icon i:hover{
 #fourth-section .box button:hover{
     background-color: var(--secondary-color);
     color:white;
+    animation-name:shake;
+    animation-duration:.2s;
+    animation-iteration-count:3;
 }
+@keyframes shake {
+    0%   {transform: rotate(0deg);}
+    25%  {transform:rotate(-2deg)}
+    50%  {transform:rotate(0deg)}
+    75%  {transform:rotate(2deg)}
+    100% {transform:rotate(0deg)}
+  }
+  
