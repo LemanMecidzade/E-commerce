@@ -7,6 +7,7 @@
     <title>Akira | Demo Fashion</title>
     <link rel="stylesheet" href="../src/styles/reset.css">
     <link rel="stylesheet" href="../src/styles/style.css">
+    <link rel="shortcut icon" href="../src/assets/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/f2324461fb.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,16 +15,16 @@
         <div class="box">
             <div class="logo"><span>A</span>kira</div>
             <ul>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>Blog</li>
-                <li>Pages</li>
-                <li>Elementor Live</li>
-                <li>Buy</li>
+                <li><a href=#>Home</a></li>
+                <li><div class="tooltip tool-1">Hot</div><a href=#>Shop</a></li>
+                <li><a href=#>Blog</a></li>
+                <li><a href=#>Pages</a></li>
+                <li><div class="tooltip tool-2">52+ Widgets</div><a href=#>Elementor Live</a></li>
+                <li><div class="tooltip tool-3">Only $69</div><a href=#>Buy</a></li>
             </ul>
             <div class="icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-cart-shopping"><span>0</span></i>
                 <i class="fa-regular fa-user"></i>
             </div>
         </div>
@@ -41,7 +42,9 @@
         <section id="second-section">
             <div class="box">
                 <div class="card card-1">
-                   <img src="../src/assets/banner1.png">
+                    <div class="image-box">
+                        <img src="../src/assets/banner1.png">
+                    </div>
                     <div class="text-box">
                         <h1>Fashion Month Ready in Capital Shop</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A?</p>
@@ -49,7 +52,9 @@
                     </div>
                 </div>
                 <div class="card card-1">
-                    <img src="../src/assets/banner2.png">
+                    <div class="image-box">
+                        <img src="../src/assets/banner2.png">
+                    </div>
                     <div class="text-box">
                         <h1>Catch the Sun : Summer Break Styles From $5.99</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A?</p>
@@ -57,7 +62,9 @@
                     </div>
                 </div>
                 <div class="card card-3">
-                    <img src="../src/assets/banner3.png">
+                    <div class="image-box">
+                        <img src="../src/assets/banner3.png">
+                    </div>
                     <div class="text-box">
                         <h1>Off shoulder red dress -20%</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A?</p>
@@ -65,11 +72,303 @@
                     </div>
                 </div>
                 <div class="card card-4">
-                    <img src="../src/assets/banner4.png">
+                    <div class="image-box">
+                        <img src="../src/assets/banner4.png">
+                    </div>
                     <div class="text-box">
                         <h1>Super Summer Sale</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A?</p>
                         <button>View All <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="third-section">
+            <div class="box">
+                <h1>Best seller</h1>
+                <div class="cards">
+                    <div class="card">
+                        <div class="img-box">
+                            <div class="discount">-20%</div>
+                            <img src="../src/assets/morbi-vitae-mii.png">
+                            <div class="hover-activated">
+                                <img src="../src/assets/morbi-vitae-mi.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Morbi Vitae Mi</h1>
+                            <div class="price">
+                                <span>$39.92</span>
+                                <span class="discount">$49.90</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(5 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets//aenean-quis-diam.jpg">
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Aenean Quis Diam</h1>
+                            <div class="price">
+                                <span>$29.00</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(0 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets/maec-vesti-turpis.jpg">
+                            <div class="hover-activated">
+                                <img src="../src/assets/maec-vesti-turpis.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Maec Vesti Turpis</h1>
+                            <div class="price">
+                                <span>$29.00</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(1 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets/sed-viverra-felis.1png.png">
+                            <div class="hover-activated">
+                                <img src="../src/assets/sed-viverra-felis.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Sed Viverra Felis</h1>
+                            <div class="price">
+                                <span>$11.90</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(1 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <div class="discount">-20%</div>
+                            <img src="../src/assets/aliquam-erat-volutpat1.png">
+                            <div class="hover-activated">
+                                <img src="../src/assets/aliquam-erat-volutpat.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Aliquam Erat Volutpat</h1>
+                            <div class="price">
+                                <span>$28.72</span>
+                                <span class="discount">$35.90</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(0 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <div class="discount">-20%</div>
+                            <img src="../src/assets/ut-male-eleifend1.png">
+                            <div class="hover-activated">
+                                <img src="../src/assets/ut-male-eleifend.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Ut Male Eleifend</h1>
+                            <div class="price">
+                                <span>$23.20</span>
+                                <span class="discount">$29.00</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(0 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets/duis-placerat-eu1.png">
+                            <div class="hover-activated">
+                                <img src="../src/assets/duis-placerat-eu.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Duis Placerat Eu</h1>
+                            <div class="price">
+                                <span>$14.90</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(0 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets/nulla-ac-euismod1.png">
+                            <div class="hover-activated">
+                                <img src="../src/assets/nulla-ac-euismod.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Nulla Ac Euismod</h1>
+                            <div class="price">
+                                <span>$11.90</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(1 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,7 +380,154 @@
                 <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </section>
+        <section id="fifth-section">
+            <div class="box">
+                <h1>Trending</h1>
+                <div class="cards">
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets/quis-fauci-dolor1.jpg">
+                            <div class="hover-activated">
+                                <img src="../src/assets/quis-fauci-dolor.jpg">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Quis Fauci Dolor</h1>
+                            <div class="price">
+                                <span>$118.50</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(2 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets/sed-viverra-felis.1png.png">
+                            <div class="hover-activated">
+                                <img src="../src/assets/sed-viverra-felis.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Sed Viverra Felis</h1>
+                            <div class="price">
+                                <span>$11.90</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color:#f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f9d713;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(1 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets/donec-in-ullamcorper1.jpg">
+                            <div class="hover-activated">
+                                <img src="../src/assets/donec-in-ullamcorper.jpg">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Donec in Ullamcorper</h1>
+                            <div class="price">
+                                <span>$69.00</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(0 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../src/assets/quisque-non-finibus1.png">
+                            <div class="hover-activated">
+                                <img src="../src/assets/quisque-non-finibus.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>Select options</span> 
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <h1>Quisque Non Finibus</h1>
+                            <div class="price">
+                                <span>$18.90</span>
+                            </div>
+                            <div class="icon-review">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                    <i class="fa-solid fa-star" style="color: gray;"></i>
+                                </div>
+                                <div class="review">
+                                    <span>(0 Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>More products</button>
+            </div>
+        </section>
     </main>
-    
 </body>
 </html>
