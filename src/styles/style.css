@@ -18,7 +18,6 @@ nav{
     justify-content: center;
 }
 nav .box{
-    width:1150px;
     max-width:1170px;
     display: flex;
     align-items: center;
@@ -136,7 +135,6 @@ nav .box .icon i:hover{
     width:100%;
 }
 #first-section .box{
-    width:1150px;
     max-width: 1170px;
     display: flex;
     justify-content: flex-end;
@@ -183,7 +181,6 @@ nav .box .icon i:hover{
     justify-content: center;
 }
 #second-section .box{
-    width:1150px;
     max-width: 1170px;
     display: flex;
     gap:20px;
@@ -299,7 +296,6 @@ nav .box .icon i:hover{
 }
 #third-section .box,
 #fifth-section .box{
-    width:1150px;
     max-width: 1170px;
     display: flex;
     flex-direction: column;
@@ -479,7 +475,6 @@ nav .box .icon i:hover{
     background-attachment: fixed;
 }
 #fourth-section .box{
-    width:1150px;
     max-width: 1170px;
     display: flex;
     flex-direction: column;
@@ -539,7 +534,6 @@ nav .box .icon i:hover{
     justify-content: center;
 }
 #sixth-section .box{
-    width:1150px;
     max-width: 1170px;
     display: flex;
     flex-direction: column;
@@ -614,7 +608,6 @@ nav .box .icon i:hover{
     background-color: rgb(240, 239, 239);
 }
 #seventh-section .box{
-    width:1150px;
     max-width: 1170px;
     display: flex;
     align-items: center;
@@ -653,11 +646,9 @@ nav .box .icon i:hover{
     display: flex;
     justify-content: center;
     background-size: cover;
-    
     background-repeat: no-repeat;
 }
 #eighth-section .box{
-    width:1150px;
     max-width: 1170px;
     display: flex;
     flex-direction: column;
@@ -700,7 +691,6 @@ footer{
     justify-content: center;
 }
 footer .box{
-    width:1150px;
     max-width: 1170px;
     display: flex;
     flex-direction: column;
